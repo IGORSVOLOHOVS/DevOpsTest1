@@ -11,6 +11,30 @@ Short file names in sources: `gate.ps1`, `log.ps1`,
 `*.yaml` files are in `.gitea/workflows/`; `pull_request_template.md` is in
 `.gitea/`.
 
+<!-- jira-sync:start -->
+Jira: KAN-103
+
+## Tasks
+
+This list is one ticket in Jira project KAN, [KAN-103](https://igorsvolohovs.atlassian.net/browse/KAN-103). Each line is a checkbox there: tick it in Jira and the sync ticks it here; add a checkbox there and it is appended here. Done items are the features described in section 3; open items are what the project declares but the code does not do yet.
+
+- [x] Site (section 3.1) <!-- spec-site -->
+- [x] Container image (section 3.2) <!-- spec-container-image -->
+- [x] recipe.ps1 (section 3.3) <!-- spec-recipe-ps1 -->
+- [x] Claude Code hooks (section 3.4) <!-- spec-claude-code-hooks -->
+- [x] Git hooks (section 3.5) <!-- spec-git-hooks -->
+- [x] Workflows (section 3.6) <!-- spec-workflows -->
+- [ ] Articles for `/blog`: (declared, not implemented) <!-- spec-articles-for-blog -->
+- [ ] A pinned pytest: (declared, not implemented) <!-- spec-a-pinned-pytest -->
+- [ ] Wiki regeneration: (declared, not implemented) <!-- spec-wiki-regeneration -->
+- [ ] Manual testing: (declared, not implemented) <!-- spec-manual-testing -->
+- [ ] Installer: (declared, not implemented) <!-- spec-installer -->
+- [ ] `$RunArgs` is declared (`recipe.ps1:5-6`) and used by no verb. (declared, not implemented) <!-- spec-runargs-is-declared-recipe-ps1-5-6-and-used-by-no- -->
+- [ ] Compliance with "revision 4.0.0" of the lab requirements, except R-02, R-09, (declared, not implemented) <!-- spec-compliance-with-revision-4-0-0-of-the-lab-requirem -->
+- [ ] Branch protection stages 1 and 2 (`CLAUDE.md`, last section): (declared, not implemented) <!-- spec-branch-protection-stages-1-and-2-claude-md-last-se -->
+
+<!-- jira-sync:end -->
+
 ## 1. Purpose and scope
 
 The repository holds a DevOps exercise (`README.md:3-5`) and the tooling that
